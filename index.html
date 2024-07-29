@@ -105,9 +105,9 @@ Have fun creating your portfolio on this template!!! -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Zhi Rong Fu</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a full stack Developer.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -135,16 +135,15 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              Hi my name is Zhi and I'm currently a junior at hunter college 
+              majoring in computer science with a minor in mathematics. Having 
+              majored physics in high school, I'm drawn to the problem solving
+              aspects of software engineering.
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              I've recently been intrigued
+              by machine learning/artificial intelligence and built my own
+              projects surrounding these topics.
             </p>
             <span class="about-wrapper__cta">
               <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
@@ -164,12 +163,14 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Nestpal:</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                NestPals is a full-stack Roommate Matching 
+                Application.
+                Using technologies like Vue.js, SASS, and Bootstrap for a responsive interface, and Firebase for backend operations. 
+                It features secure user authentication, a detailed questionnaire for precise matching using a custom algorithm inspired 
+                by k-means clustering, and real-time functionalities such as live chat and location viewing through Google Maps API. 
+                
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -204,12 +205,15 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Workout-Gen:</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Workout Generator is a dynamic full-stack application designed to create personalized workout plans. It utilizes React 
+                for the front-end and Node.js with Express for the server-side. It 
+                leverages the ChatGPT API to generate custom workout routines based on user responses to targeted questions about their 
+                fitness preferences and habits. It prompts the ChatGPT API to return the response in a json format to get parsed. If in case
+                the response is not in the desired format, I have made my own algorithm to parse the data using regex so that 
+                the result can be easily displayed to the user. The application ensures user security with a robust signup-login system that encrypts 
+                passwords using MySQL, providing both functionality and protection. 
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -240,16 +244,57 @@ Have fun creating your portfolio on this template!!! -->
             </div>
           </article>
           <!-- /END Project -->
-
+          
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Neural-Network From Scratch:</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                This project showcases a custom-built neural network designed to recognize the MNIST dataset using only Pandas and 
+                NumPy, focusing on fundamental machine learning concepts. By implementing all core functions—including forward 
+                propagation, backward propagation, and parameter updates—using pure mathematical operations, this project prompted 
+                me to familiarize myself with the underlying mechanics of neural networks and what is actually going on under the hood.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">AI-NBA Game Predictor:</h3>
+              <p class="project-wrapper__text-info">
+                The AI-NBA Bot Predictor leverages Python, TensorFlow, and Keras to forecast NBA game outcomes with a 67% accuracy 
+                for the 2023-2024 season. It processes about 1,200 games, using detailed data scraped from NBA reference sites and 
+                parsed with BeautifulSoup. The model efficiently maps players to unique IDs, creates embeddings, and builds a neural 
+                network that considers team dynamics and starters. An early stopping mechanism in training ensures optimal prediction 
+                without overfitting
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -346,15 +391,6 @@ Have fun creating your portfolio on this template!!! -->
           </a>
         </div>
         <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
-        </p>
       </div>
     </footer>
     <!-- END Footer Section -->
